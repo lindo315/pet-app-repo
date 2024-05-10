@@ -42,29 +42,6 @@ function Home() {
             </section>
           </section>
         </section>
-
-        <section className="know">
-          <div className="know-title">
-            <h1>Get to know us</h1>
-          </div>
-          <div
-            className="blob1"
-            style={{
-              backgroundImage: `url(${backgroundImageUrl})`,
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-            }}
-          >
-            <div className="blob-content">
-              <div className="blob-text">
-                <h2>Hi</h2>
-              </div>
-              <div className="blob-text">
-                <p>We are awesome</p>
-              </div>
-            </div>
-          </div>
-        </section>
       </main>
     </div>
   );
