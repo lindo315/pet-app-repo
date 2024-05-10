@@ -26,6 +26,11 @@ function Header() {
               Resources
             </Link>
           </li>
+          <li className="navbar-item">
+            <Link to="/resources" className="navbar-link">
+              Contacts
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>

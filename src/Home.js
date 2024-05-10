@@ -6,6 +6,7 @@ import "./index.css";
 
 function Home() {
   const backgroundImageUrl = `${process.env.PUBLIC_URL}/images/blob.png`;
+  const knowImageURL = `${process.env.PUBLIC_URL}/images/blob-know.png`;
   return (
     <div className="home">
       <main>
@@ -39,6 +40,91 @@ function Home() {
                   Start Here
                 </Link>
               </div>
+            </section>
+          </section>
+        </section>
+
+        <section className="know-title">Get to know us</section>
+
+        {/* First */}
+        <section
+          className="know"
+          style={{
+            backgroundImage: `url(${knowImageURL})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+        >
+          <section className="know-content">
+            <section className="know-text">
+              <h2>What we do</h2>
+              <p>
+                Our focus is to help displaced animals in search of homes find
+                you, caring folks with big enough hearts to care!
+              </p>
+            </section>
+
+            <section className="know-image">
+              <img
+                src={`${process.env.PUBLIC_URL}/images/chiwawa.png`}
+                alt="Pet"
+                className="img"
+              />
+            </section>
+          </section>
+        </section>
+
+        {/* Second */}
+        <section
+          className="know"
+          style={{
+            backgroundImage: `url(${knowImageURL})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+        >
+          <section className="know-content">
+            <section className="know-image">
+              <img
+                src={`${process.env.PUBLIC_URL}/images/checking.png`}
+                alt="Pet"
+                className="img"
+              />
+            </section>
+            <section className="know-text">
+              <h2>Services?</h2>
+              <p>
+                Yes! We also offer services to current pet owners ranging from
+                food, medicine, and grooming!
+              </p>
+            </section>
+          </section>
+        </section>
+
+        {/* Third */}
+        <section
+          className="know"
+          style={{
+            backgroundImage: `url(${knowImageURL})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+        >
+          <section className="know-content">
+            <section className="know-text">
+              <h2>Animal Care</h2>
+              <p>
+                We take in animals that are either displaced, sick, or have
+                owners who reconsider their options...
+              </p>
+            </section>
+
+            <section className="know-image">
+              <img
+                src={`${process.env.PUBLIC_URL}/images/close-up.png`}
+                alt="Pet"
+                className="img"
+              />
             </section>
           </section>
         </section>
